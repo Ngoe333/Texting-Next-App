@@ -1,0 +1,11 @@
+.text{
+    font-weight: bold;
+    font-size: 3.9rem;
+    color: blue;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

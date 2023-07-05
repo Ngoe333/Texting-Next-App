@@ -1,6 +1,11 @@
+import style from'./style.module.css'
+
 const About = () =>{
     return(
-        <h1>About</h1>
+        <div>
+            <h1 className= {style.text}>About</h1>
+        </div>
+        
     )
 }
 
