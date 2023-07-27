@@ -1,0 +1,64 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(98, 98, 255);
+    padding: 18px 5%;
+    bottom: 0;
+    position: relative;
+}
+
+
+.text{
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+.social_icons{
+    display: flex;
+    gap: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.social_icons p{
+    color: black;
+   
+}
+
+.social_icons p:hover{
+    color: yellow;
+}
+
+@media (max-width:410px){
+
+
+    .text_container{
+        flex:1;
+      
+    }
+
+    .text{
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        
+    }
+
+    .social_icons{
+        gap: 8px;
+    }
+
+    .social_icons p{
+        font-size: 10px;
+        color: black;
+        font-weight: 600;
+   
+    }
+
+
+    
+}

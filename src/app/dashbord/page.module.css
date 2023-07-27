@@ -1,0 +1,11 @@
+
+
+.text{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 22%;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(31, 28, 28);
+}

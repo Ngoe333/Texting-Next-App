@@ -1,0 +1,64 @@
+.container{
+    position: fixed;
+    width: 100%;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    background-color: rgb(98, 98, 255);
+    z-index: 10;
+}
+
+
+.logo{
+    font-size: 1.2rem;
+}
+
+
+.logo span{
+    color: rgb(255, 255, 74);
+}
+
+.links{
+    display: inline;
+    padding: 0 10px;
+    color: rgb(35, 35, 35);
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.menu{
+    display: none;
+}
+
+@media (max-width:450px){
+
+    .container{
+        position: fixed;
+        width: 100%;
+        top:0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 5%;
+        background-color: rgb(98, 98, 255);
+        z-index: 10;
+    }
+    
+    .logo{
+        font-size: 0.5rem;
+    }
+
+    .links{
+        display: none;
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    
+}
+
